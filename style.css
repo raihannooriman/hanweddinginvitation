@@ -285,7 +285,7 @@ footer li{
   font-size: 4rem;
   position: fixed;
   bottom: 2.5rem;
-  left: 2rem;
+  right: 2rem;
   cursor: pointer;
   color: white;
   opacity: 0.5;
