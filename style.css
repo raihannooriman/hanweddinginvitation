@@ -357,6 +357,9 @@ footer li{
   html{
     font-size: 65%;
   }
+  .mynavbar .offcanvas {
+    width: 50vw;
+  }
   .simply-countdown .simply-section {
     padding: 60px;
     margin: 5px;
