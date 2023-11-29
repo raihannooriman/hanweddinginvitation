@@ -53,17 +53,11 @@ body {
 }
 .mynavbar .offcanvas {
   height: 100vh;
-  display: flex; /* Use flexbox to arrange the content */
-  flex-direction: column; /* Align the content vertically */
-  justify-content: space-between;
-}
-.mynavbar .offcanvas h5{
-  font-size: 14px;
 }
 .mynavbar .navbar-brand, 
 .mynavbar .offcanvas-title{
   font-family: "Sacramento", cursive;
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .home{
@@ -291,7 +285,7 @@ footer li{
   font-size: 4rem;
   position: fixed;
   bottom: 2.5rem;
-  right: 2rem;
+  left: 2rem;
   cursor: pointer;
   color: white;
   opacity: 0.5;
@@ -326,7 +320,7 @@ footer li{
   html{
     font-size: 75%;
   }
-  .simply-countdown > .simply-section {
+  .simply-countdown .simply-section {
     padding: 70px;
     margin: 10px;
   }
@@ -363,8 +357,10 @@ footer li{
   html{
     font-size: 65%;
   }
-  .navbar .offcanvas{
-    width: 60%;
+  .mynavbar .offcanvas{
+    max-width: 22rem;
+    left: 90%;
+    margin-left: 11.2rem;
   }
   .simply-countdown .simply-section {
     padding: 60px;
@@ -386,9 +382,6 @@ footer li{
 @media(max-width:576px){
   html{
     font-size: 60%;
-  }
-  .navbar.offcanvas{
-    width: 50%;
   }
   .simply-countdown .simply-section {
     padding: 35px;
