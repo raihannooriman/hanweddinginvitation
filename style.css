@@ -55,6 +55,10 @@ body {
   height: 100vh;
   display: flex; /* Use flexbox to arrange the content */
   flex-direction: column; /* Align the content vertically */
+  justify-content: space-between;
+}
+.mynavbar .offcanvas h5{
+  font-size: 14px;
 }
 .mynavbar .navbar-brand, 
 .mynavbar .offcanvas-title{
