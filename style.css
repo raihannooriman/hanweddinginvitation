@@ -359,6 +359,7 @@ footer li{
   }
   .mynavbar .offcanvas{
     width: 80%;
+    margin-left: 50%;
   }
   .simply-countdown .simply-section {
     padding: 60px;
@@ -380,9 +381,6 @@ footer li{
 @media(max-width:576px){
   html{
     font-size: 60%;
-  }
-  .mynavbar .offcanvas{
-    width: 80%;
   }
   .simply-countdown .simply-section {
     padding: 35px;
