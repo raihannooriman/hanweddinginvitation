@@ -359,6 +359,9 @@ footer li{
   }
   .mynavbar .offcanvas {
     width: 60%;
+    position: sticky;
+    top: 0;
+    left: 0;
   }
   .simply-countdown .simply-section {
     padding: 60px;
