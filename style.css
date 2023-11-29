@@ -53,7 +53,6 @@ body {
 }
 .mynavbar .offcanvas {
   height: 100vh;
-  width: 35vh;
 }
 .mynavbar .navbar-brand, 
 .mynavbar .offcanvas-title{
@@ -378,6 +377,9 @@ footer li{
 @media(max-width:576px){
   html{
     font-size: 60%;
+  }
+  .mynavbar .offcanvas {
+    width: 35vh;
   }
   .simply-countdown > .simply-section {
     padding: 35px;
