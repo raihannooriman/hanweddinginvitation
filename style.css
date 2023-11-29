@@ -359,8 +359,7 @@ footer li{
   }
   .mynavbar .offcanvas{
     max-width: 22rem;
-    left: 90%;
-    margin-left: 11.2rem;
+    left: 100%;
   }
   .simply-countdown .simply-section {
     padding: 60px;
